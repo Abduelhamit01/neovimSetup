@@ -1,3 +1,4 @@
 require("abduelhamit.remap")
-print("hello abduelhamit")
+require("abduelhamit.packer")
+require("abduelhamit.set")
 
