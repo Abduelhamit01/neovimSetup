@@ -37,6 +37,7 @@ require("keymaps")     -- adapt the path if you place the file elsewhere
 | Mode          | Shortcut                       | Action                                           |
 | ------------- | ------------------------------ | ------------------------------------------------ |
 | **Normal**    | `<leader>pv`                   | Open netrw explorer                              |
+| Normal        | `<leader>pf`                   | Find files in current folder (Telescope)         |
 | Normal        | `<leader>vpp`                  | Open packer config                               |
 | Normal        | `<leader><leader>`             | Source current file                              |
 | Normal        | `<C-d>` / `<C-u>`              | Scroll half page down/up and keep cursor centred |
@@ -56,11 +57,12 @@ require("keymaps")     -- adapt the path if you place the file elsewhere
 | Normal        | `<leader>s`                    | Search & replace current word (`:%s/.../.../gI`) |
 | Normal        | `<leader>x`                    | Make current file executable (`chmod +x`)        |
 | Normal        | `<leader>ee`                   | Insert Go error‑handling snippet                 |
+| Normal        | `<leader>vd`                   | LSP diagnostic popup on current line             |
 | Normal        | `<leader>vwm` / `<leader>svwm` | Start / stop Vim-With-Me session                 |
 | Normal        | `<leader>mr`                   | CellularAutomaton make\_it\_rain                 |
 | Normal        | `<leader>` (`Space`)           | *Leader key*                                     |
 
-> **Tip:** Because the leader is `<Space>`, combinations read naturally: `<Space> y` feels like “*y*ank globally”, `<Space> p` feels like “*p*aste”, etc.
+> **Tip:** Because the leader is `<Space>`, combinations read naturally: `<Space> y` feels like “yank globally”, `<Space> p` feels like “paste”, etc.
 
 ## Tips & Tricks
 
